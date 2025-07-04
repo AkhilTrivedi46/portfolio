@@ -1,0 +1,39 @@
+.project-card {
+  position: relative; /* Required for absolute child */
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: crimson;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#scrollTopBtn {
+  position: fixed;         /* stays in same place while scrolling */
+  bottom: 40px;            /* distance from bottom */
+  right: 40px;             /* distance from right edge */
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none;           /* initially hidden */
+  z-index: 1000;           /* stay on top of all content */
+}
+
+#scrollTopBtn:hover {
+  background-color: darkgray;
+}

@@ -1,0 +1,143 @@
+@media (max-width: 600px) {
+  #about {
+    padding: 30px 15px;        /* reduce padding for smaller screens */
+    text-align: center;        /* center-align for better mobile experience */
+  }
+
+  #about h2 {
+    font-size: 22px;           /* slightly smaller heading */
+  }
+
+  #about p {
+    font-size: 16px;           /* make paragraph readable */
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 600px) {
+  #home {
+    padding: 20px 15px;
+    margin: 0;
+  }
+
+  #home h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #home p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  #experience {
+    padding: 30px 15px;
+  }
+
+  #experience h2 {
+    font-size: 24px;
+  }
+
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .job-header h3 {
+    font-size: 18px;
+  }
+
+  .job-meta {
+    font-size: 14px;
+  }
+
+  #job1, #job2 {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  #job1 li,
+  #job2 li {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 600px) {
+  #skills {
+    padding: 20px;
+  }
+
+  #skills ul {
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+  }
+
+  #skills p {
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+
+  #skills h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 600px) {
+  #projects {
+    padding: 30px 15px;
+  }
+
+  #projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #projects article {
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px gray;
+  }
+
+  #projects article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #projects article p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 600px) {
+  #contact {
+    padding: 30px 15px;
+  }
+
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  #contact form {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  #contact input,
+  #contact textarea {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  #contact button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+

@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #home {
-  margin-left: 100px; /* moves the section right */
+  margin: 100px; /* moves the section right */
   text-align: center;
-  padding: 25px;
+  border-radius: 30px;
 }
 
 header {
@@ -30,8 +34,9 @@ nav ul li a:hover {
 }
 
 #home {
-  background-color: lightgray;   /* Adds a light background */
-  padding: 60px 20px;            /* Adds space inside the section */
+  background-color: lightcyan;   /* Adds a light background */
+  padding: 10px 10px;            /* Adds space inside the section */
+  margin: 4px ;
   text-align: center;            /* Centers the text */
 }
 
@@ -39,11 +44,13 @@ nav ul li a:hover {
   background-color:lavender;       /* Keeps it clean and minimal */
   padding: 50px 20px;            /* Adds space inside the section */
   text-align: left;              /* Aligns content to the left */
+  border-radius: 20px;
 }
 
 #projects {
   background-color: lightyellow;   /* Soft background to highlight your work */
   padding: 60px 20px;              /* Space around the section */
+  border-radius: 20px;
 }
 
 #projects h2 {
@@ -62,6 +69,7 @@ nav ul li a:hover {
 #contact {
   background-color: whitesmoke;     /* Light, neutral background */
   padding: 60px 20px;               /* Space inside the section */
+  border-radius: 20px;
 }
 
 #contact h2 {
@@ -110,6 +118,7 @@ footer {
 #experience{
     background-color: bisque;
     padding: 60px 20px;
+    border-radius: 20px;
 }
 
 #experience h2 {
@@ -160,6 +169,27 @@ footer {
   border-radius: 8px;
   box-shadow: 0px 0px 10px lightgray;
 }
+
+#skills{
+  padding:5px;
+  background-color:bisque;
+}
+
+#skills h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#skills ul {
+  padding-left: 20px;
+  box-shadow: 0px 0px 10px gray;
+  padding:60px;
+  border-radius: 50px;;
+  background-color: seashell;
+
+}
+
+
 
 
 
