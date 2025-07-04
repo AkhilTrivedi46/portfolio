@@ -1,0 +1,169 @@
+#home {
+  margin-left: 100px; /* moves the section right */
+  text-align: center;
+  padding: 25px;
+}
+
+header {
+  background-color: black;       /* Sets the header’s background to black */
+  padding: 20px 0;               /* Adds vertical space (top & bottom) inside the header */
+}
+
+nav ul {
+    display : flex;
+    justify-content: center; 
+    list-style: none;
+    gap: 40px;
+    margin: 0;                     /* Remove default margin */
+    padding: 0;                    /* Remove default padding */
+}
+
+nav ul li a {
+    color : white;
+    text-decoration: none;
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: yellow;                /* Changes text color on mouse hover */
+}
+
+#home {
+  background-color: lightgray;   /* Adds a light background */
+  padding: 60px 20px;            /* Adds space inside the section */
+  text-align: center;            /* Centers the text */
+}
+
+#about {
+  background-color:lavender;       /* Keeps it clean and minimal */
+  padding: 50px 20px;            /* Adds space inside the section */
+  text-align: left;              /* Aligns content to the left */
+}
+
+#projects {
+  background-color: lightyellow;   /* Soft background to highlight your work */
+  padding: 60px 20px;              /* Space around the section */
+}
+
+#projects h2 {
+  text-align: center;            /* Center the section title */
+  margin-bottom: 40px;             /* Add space below the title */
+}
+
+#projects article {
+  background-color: white;         /* Card-like background for each project */
+  padding: 20px;                   /* Inner spacing for each project block */
+  margin-bottom: 20px;             /* Space between project blocks */
+  border-radius: 8px;              /* Rounded corners for a smoother look */
+  box-shadow: 0px 0px 10px lightgray; /* Soft shadow for card effect */
+}
+
+#contact {
+  background-color: whitesmoke;     /* Light, neutral background */
+  padding: 60px 20px;               /* Space inside the section */
+}
+
+#contact h2 {
+  text-align: center;               /* Center the “Contact Me” heading */
+  margin-bottom: 40px;              /* Add space below the heading */
+}
+
+#contact form {
+  max-width: 500px;                 /* Limit the form width */
+  margin: 0 auto;                   /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;          /* Stack form fields vertically */
+  gap: 20px;                        /* Space between form elements */
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;                    /* Inner space inside input/textarea */
+  border: 1px solid gray;          /* Border for visibility */
+  border-radius: 6px;              /* Rounded corners */
+  font-size: 16px;                 /* Text size inside the fields */
+}
+
+#contact button {
+  padding: 12px;
+  background-color: black;         /* Button background */
+  color: white;                    /* Button text */
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+#contact button:hover {
+  background-color: darkgray;      /* Change color on hover */
+}
+
+footer {
+  background-color: black;         /* Solid footer background */
+  color: white;                    /* White text */
+  text-align: center;              /* Center the copyright */
+  padding: 20px;                   /* Add space inside the footer */
+  font-size: 14px;                 /* Slightly smaller text */
+}
+
+#experience{
+    background-color: bisque;
+    padding: 60px 20px;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#job1 {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.job-header h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.job-meta {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#job1 ul {
+  padding-left: 20px;
+}
+
+#job1 li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+#job2 {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+
+
+
+
+
+
